@@ -11,7 +11,7 @@ import Alamofire
 
 class FirstViewController: UIViewController {
 
-    let SERVER_URL = "http://5.189.164.245:6969/"
+    let SERVER_URL = "YOUTUBE-DL-SERVER-URL"
     
     @IBOutlet weak var urlTextField: UITextField!
     @IBAction func downloadButton(_ sender: Any) {
